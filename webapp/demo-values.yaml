@@ -9,7 +9,7 @@ image:
   pullPolicy: Always
 
 service:
-  targetPort: 31000
+  targetPort: 5000
   type: LoadBalancer
 # secretEnv:
 #   Weather__ApiKey:
